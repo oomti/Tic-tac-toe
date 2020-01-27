@@ -1,0 +1,47 @@
+:root {
+	margin: 0px;
+	padding: 0px;
+}
+
+tr {
+	height : 2rem;
+}
+
+td {
+	width: 2rem;
+	text-align: center;
+}
+
+table :nth-child(3n) {
+
+	border-right : 5px solid black;
+
+}
+
+table :first-child {
+	border-left: 5px solid;
+
+}
+
+table :first-child td {
+	border-top: 5px solid;
+
+}
+
+table :nth-child(3n) td {
+
+	border-bottom : 5px solid black;
+
+}
+
+td:hover {
+	background-color: blue;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+tr,td {
+	border: 1px solid black;
+}
